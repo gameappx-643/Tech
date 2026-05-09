@@ -1,0 +1,80 @@
+solveNQueen I = 0 N=4
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+I= 0 J=0 Is Safe=1
+solveNQueen I = 1 N=4
+1 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+I= 1 J=0 Is Safe=0
+I= 1 J=1 Is Safe=0
+I= 1 J=2 Is Safe=1
+solveNQueen I = 2 N=4
+1 0 0 0 
+0 0 1 0 
+0 0 0 0 
+0 0 0 0 
+
+I= 2 J=0 Is Safe=0
+I= 2 J=1 Is Safe=0
+I= 2 J=2 Is Safe=0
+I= 2 J=3 Is Safe=0
+I= 1 J=3 Is Safe=1
+solveNQueen I = 2 N=4
+1 0 0 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+
+I= 2 J=0 Is Safe=0
+I= 2 J=1 Is Safe=1
+solveNQueen I = 3 N=4
+1 0 0 0 
+0 0 0 1 
+0 1 0 0 
+0 0 0 0 
+
+I= 3 J=0 Is Safe=0
+I= 3 J=1 Is Safe=0
+I= 3 J=2 Is Safe=0
+I= 3 J=3 Is Safe=0
+I= 2 J=2 Is Safe=0
+I= 2 J=3 Is Safe=0
+I= 0 J=1 Is Safe=1
+solveNQueen I = 1 N=4
+0 1 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+I= 1 J=0 Is Safe=0
+I= 1 J=1 Is Safe=0
+I= 1 J=2 Is Safe=0
+I= 1 J=3 Is Safe=1
+solveNQueen I = 2 N=4
+0 1 0 0 
+0 0 0 1 
+0 0 0 0 
+0 0 0 0 
+
+I= 2 J=0 Is Safe=1
+solveNQueen I = 3 N=4
+0 1 0 0 
+0 0 0 1 
+1 0 0 0 
+0 0 0 0 
+
+I= 3 J=0 Is Safe=0
+I= 3 J=1 Is Safe=0
+I= 3 J=2 Is Safe=1
+solveNQueen I = 4 N=4
+0 1 0 0 
+0 0 0 1 
+1 0 0 0 
+0 0 1 0 
+
