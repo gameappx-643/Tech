@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C++ 17 ",
+            "command": "/opt/homebrew/bin/g++-15",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++17",
+                "-DRKY_LOCAL_RUN",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "&&",
+                "./${fileBasenameNoExtension}",
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Run current file witout Debug "
+        },
+    ],
+    "version": "2.0.0"
+}
